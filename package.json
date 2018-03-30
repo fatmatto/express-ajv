@@ -1,0 +1,39 @@
+{
+  "name": "express-ajv",
+  "version": "1.0.0",
+  "description": "Express middleware that validates user input (body, query, params, headers)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ajv": "^6.4.0",
+    "chai": "^4.1.2",
+    "sinon": "^4.5.0",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.5"
+  },
+  "scripts": {
+    "test": "NODE_ENV=testing npx nyc --reporter=text --check-coverage --lines 90 --all mocha test/*.spec.js --exit",
+    "test-ci": "NODE_ENV=testing npx nyc --check-coverage --lines 90 --all mocha test/*.spec.js --exit",
+    "lint": "npx eslint src test --fix",
+    "security-test": "npx nsp check && npx snyk test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatmatto/express-ajv.git"
+  },
+  "keywords": [
+    "express",
+    "ajv",
+    "json-schema"
+  ],
+  "author": "Mattia Alfieri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fatmatto/express-ajv/issues"
+  },
+  "homepage": "https://github.com/fatmatto/express-ajv#readme"
+}
