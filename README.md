@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/fatmatto/express-ajv.svg?branch=master)](https://travis-ci.org/fatmatto/express-ajv)
+
 # express-ajv
 Express middleware that helps validating user input
 
