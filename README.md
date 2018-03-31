@@ -14,3 +14,24 @@ A simple middleware for your expressjs routes that accepts JSON schemas and uses
 
 ## How?
 `npm i express-ajv-middleware`
+
+```javascript
+const validateInput = require('express-ajv-middleware')
+
+// setup your express app
+
+const validatePostFoo = validateInput({
+   body: {
+        type: 'object',
+        properties: {
+            'bar': { type: 'integer' },
+            'baz': { type: 'string' }
+        },
+        required: ['bar']
+   }
+})
+
+app.post('/foo', validatePostFoo, (req,res,next) => {
+    // Do your thing here
+})
+```
