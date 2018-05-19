@@ -10,7 +10,6 @@ A simple middleware for your expressjs routes that accepts JSON schemas and uses
 * Express validator is good for websites imho, not complex apis
 * JSON schema is good and can model anything in your project, this is good for orgs where you have multiple services
 * AJV is fast and it just works
-à
 
 ## How?
 `npm i express-ajv-middleware`
