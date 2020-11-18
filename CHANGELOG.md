@@ -1,3 +1,9 @@
+# 📦 2.0.1 (18 Nov 2020)
+- [9caa8](https://github.com/fatmatto/express-ajv/commit/9caa81f8619d2260c3bae6706ab7b84bef6a4f9e)  📦 Release 2.0.1
+- [cf5c8](https://github.com/fatmatto/express-ajv/commit/cf5c800b4ee690988863cb255b6be8aa3cb3577a)  security: update dependencies
+- [aee60](https://github.com/fatmatto/express-ajv/commit/aee60c6151127169183d787a9ccd5476906b7de3)  Merge pull request #1 from fatmatto/dependabot/npm_and_yarn/lodash-4.17.19
+- [f0f25](https://github.com/fatmatto/express-ajv/commit/f0f25ba50dc87d8e1c869332bac4d611a875698e)  Bump lodash from 4.17.15 to 4.17.19
+- [f4367](https://github.com/fatmatto/express-ajv/commit/f436760cb021a9ec9dc18ba01c357428a21bed27)  📒 Update CHANGELOG
 # 📦 2.0.0 (15 Apr 2020)
 - [0ccba](https://github.com/fatmatto/express-ajv/commit/0ccba1fa64db458a703c4f8c8f7f49f48a2dfac2)  📦 Release 2.0.0
 - [36122](https://github.com/fatmatto/express-ajv/commit/36122039b42a8aed92e12c532e49661df1ef8743)  chore: add release script
