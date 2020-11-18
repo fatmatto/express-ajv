@@ -10,14 +10,14 @@
     "index.js"
   ],
   "dependencies": {
-    "ajv": "^6.4.0",
-    "throwable-http-errors": "^1.0.1"
+    "ajv": "^6.12.6",
+    "throwable-http-errors": "^2.1.0"
   },
   "devDependencies": {
-    "mocha": "^5.0.5",
     "chai": "^4.1.2",
-    "sinon": "^4.5.0",
-    "supertest": "^3.0.0"
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.1",
+    "supertest": "^6.0.1"
   },
   "scripts": {
     "test": "NODE_ENV=testing npx nyc --reporter=text --check-coverage --lines 90 --all mocha test/*.spec.js --exit",
