@@ -14,10 +14,10 @@
     "throwable-http-errors": "^2.1.0"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^8.2.1",
-    "sinon": "^9.2.1",
-    "supertest": "^6.0.1"
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "sinon": "^11.1.2",
+    "supertest": "^6.1.6"
   },
   "scripts": {
     "test": "NODE_ENV=testing npx nyc --reporter=text --check-coverage --lines 90 --all mocha test/*.spec.js --exit",
