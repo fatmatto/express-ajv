@@ -1,6 +1,6 @@
 {
   "name": "express-ajv-middleware",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Express middleware that validates user input (body, query, params, headers)",
   "main": "index.js",
   "directories": {
