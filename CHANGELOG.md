@@ -1,3 +1,11 @@
+# 📦 2.0.2 (25 Oct 2021)
+- [9e821](https://github.com/fatmatto/express-ajv/commit/9e82187822d712a62d7a0297a258eea527b6568f)  📦 Release 2.0.2
+- [1fb7a](https://github.com/fatmatto/express-ajv/commit/1fb7a7d61b396158eb3901931443aef170c6284a)  chore: updated dependencies
+- [d2a53](https://github.com/fatmatto/express-ajv/commit/d2a53fc57ae4047d43236b5beb272be49b7efe30)  chore: updated dependencies
+- [6de77](https://github.com/fatmatto/express-ajv/commit/6de77a607a5c7a182a30d2cee2001681e97ddddb)  Merge pull request #2 from fatmatto/dependabot/npm_and_yarn/y18n-4.0.1
+- [02593](https://github.com/fatmatto/express-ajv/commit/025934858cd173173db7c8b323c812630d390132)  Bump y18n from 4.0.0 to 4.0.1
+- [4464d](https://github.com/fatmatto/express-ajv/commit/4464d45226ff521bb9b5f449b28a7a5c9d006871)  update nodejs version in travis CI
+- [86817](https://github.com/fatmatto/express-ajv/commit/8681789829262dcbd7abab7e48bb472654138e53)  📒 Update CHANGELOG
 # 📦 2.0.1 (18 Nov 2020)
 - [9caa8](https://github.com/fatmatto/express-ajv/commit/9caa81f8619d2260c3bae6706ab7b84bef6a4f9e)  📦 Release 2.0.1
 - [cf5c8](https://github.com/fatmatto/express-ajv/commit/cf5c800b4ee690988863cb255b6be8aa3cb3577a)  security: update dependencies
